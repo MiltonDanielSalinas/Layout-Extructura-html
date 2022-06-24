@@ -1,0 +1,11 @@
+footer {
+    background-color: black;
+    color: white;
+    clear:both;
+    padding: 10px 0px;
+    text-align: center;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}

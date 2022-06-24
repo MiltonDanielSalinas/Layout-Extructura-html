@@ -1,0 +1,41 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+    background: rgba(150, 149, 149, 0.288);
+}
+
+header, .main, footer {
+    width:90%;
+    margin:20px auto;
+    max-width: 1000px;
+}
+
+header nav {
+    background: rgb(19, 56, 158);
+    overflow: hidden;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+float: left;
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+header nav ul li a:hover {
+    background: rgba(6, 223, 252, 0.527);
+}

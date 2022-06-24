@@ -1,0 +1,31 @@
+.main .articles {
+    width: 68.5%;
+    float: left;
+    margin-right: 1.5%;
+}
+
+.main .articles article {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow: 1px 1px 10px rgb(22, 119, 87);
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+
+}
+
+aside {
+    width: 30%;
+    background: rgb(11, 168, 207);
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
